@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ customer.title }}{% endblock %}
+
+{% block content %}
+<h1 class="mt-5" >{{ customer.name }}</h1>
+<h2>Phone number: {{ customer.phone_number }}</h2>
+<p>Experience: {{ customer.experience }}</p>
+{% endblock %}
